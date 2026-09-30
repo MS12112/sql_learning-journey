@@ -16,3 +16,12 @@ FROM country c
 JOIN gdp_pc gp
 ON gp.country = c.country
 GROUP BY c.wb_regions;
+
+-- Regiões com mais de 20 países
+
+SELECT
+    wb_regions,
+    COUNT(*) AS qtd_paises
+FROM country
+GROUP BY wb_regions
+HAVING COUNT(*) > 20;
