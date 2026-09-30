@@ -27,4 +27,4 @@ após concluir o curso de SQL da FGV.
 
 ## Dataset utilizado
 
-GDP Per Capita
+GDP Per Capita e Countrys
