@@ -1,22 +1,13 @@
--- =====================================
--- UNION
--- Combina resultados removendo duplicidades
--- =====================================
-
-SELECT DISTINCT wb_regions AS regiao
+-- União de classificações regionais sem duplicidade
+SELECT wb_regions AS regiao
 FROM country
 
 UNION
 
-SELECT DISTINCT four_regions
+SELECT four_regions
 FROM country;
 
-
--- =====================================
--- UNION ALL
--- Combina resultados mantendo duplicidades
--- =====================================
-
+-- União de classificações regionais mantendo duplicidades
 SELECT wb_regions AS regiao
 FROM country
 
