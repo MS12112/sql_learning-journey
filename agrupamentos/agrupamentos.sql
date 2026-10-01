@@ -5,7 +5,6 @@ SELECT
 FROM country
 GROUP BY wb_regions;
 
-
 -- PIB médio por região
 SELECT
     c.wb_regions,
