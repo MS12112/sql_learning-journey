@@ -23,10 +23,24 @@ Combina os resultados de duas consultas mantendo duplicidades.
 
 4.INTERSECT
 Retorna apenas os registros presentes em ambas as consultas.
-Exemplo: A = {1,2,3} B = {2,3,4}
-Resultado: {2,3}
+
+Exemplo:
+ 
+A = {1,2,3}
+B = {2,3,4}
+ 
+Resultado:
+ 
+{2,3}
 
 4.1.EXCEPT
 Retorna os registros da primeira consulta que não existem na segunda.
-Exemplo: A = {1,2,3} B = {2,3,4}
-Resultado: {1}
+
+Exemplo:
+ 
+A = {1,2,3}
+B = {2,3,4}
+ 
+Resultado:
+ 
+{1}
