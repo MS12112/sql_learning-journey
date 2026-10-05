@@ -1,8 +1,5 @@
 # SQL Learning Journey
 
-Repositório criado para registrar minha evolução em SQL
-após concluir o curso de SQL da FGV.
-
 ## Tópicos estudados
 
 - SELECT
