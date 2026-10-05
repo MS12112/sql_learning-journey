@@ -59,7 +59,7 @@ Resultado:
 
 5.3.SAVEPOINT
 → Cria um ponto de retorno dentro da transação.
- 
+
 5.4.ROLLBACK TO SAVEPOINT
 → Desfaz apenas as alterações realizadas após o ponto salvo.
 
