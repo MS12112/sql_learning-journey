@@ -46,21 +46,21 @@ Resultado:
  
 {1}
 
-5.TRANSAÇÕES
+#TRANSAÇÕES
 
-5.1.BEGIN TRANSACTION
+5.BEGIN TRANSACTION
 → Inicia uma transação.
 
-5.2.COMMIT
+5.1.COMMIT
 → Salva permanentemente todas as alterações realizadas na transação.
 
-5.3.ROLLBACK
+5.2.ROLLBACK
 → Desfaz todas as alterações realizadas desde o início da transação.
 
-5.4.SAVEPOINT
+5.3.SAVEPOINT
 → Cria um ponto de retorno dentro da transação.
  
-5.5.ROLLBACK TO SAVEPOINT
+5.4.ROLLBACK TO SAVEPOINT
 → Desfaz apenas as alterações realizadas após o ponto salvo.
 
 Objetivo:
