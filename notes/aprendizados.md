@@ -6,6 +6,7 @@ Exemplo:
 
 - Média por país
 - Média por região
+  
 Obs: Não deve-se usar GROUP BY apenas por hábito.
 
 2.Diferença entre:
