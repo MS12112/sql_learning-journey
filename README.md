@@ -11,15 +11,14 @@ após concluir o curso de SQL da FGV.
 - GROUP BY
 - HAVING
 - JOIN
-- UNION
-- UNION ALL
-- INTERSECT
-- EXCEPT
+- UNION | UNION ALL
+- INTERSECT | EXCEPT
 - Subconsultas
+- CTE (WITH)
 
 ## Próximos tópicos
 
-- CTE (WITH)
+- Funções de DATE
 - Window Functions
 - Funções de Data
 - PostgreSQL
