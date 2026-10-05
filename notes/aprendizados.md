@@ -56,5 +56,11 @@ Resultado:
 5.3.ROLLBACK
 → Desfaz todas as alterações realizadas desde o início da transação.
 
+5.4.SAVEPOINT
+→ Cria um ponto de retorno dentro da transação.
+ 
+5.5.ROLLBACK TO SAVEPOINT
+→ Desfaz apenas as alterações realizadas após o ponto salvo.
+
 Objetivo:
 Garantir que uma operação seja concluída completamente ou não seja executada.
