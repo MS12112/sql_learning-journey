@@ -44,3 +44,17 @@ B = {2,3,4}
 Resultado:
  
 {1}
+
+5.TRANSAÇÕES
+
+5.1.BEGIN TRANSACTION
+→ Inicia uma transação.
+
+5.2.COMMIT
+→ Salva permanentemente todas as alterações realizadas na transação.
+
+5.3.ROLLBACK
+→ Desfaz todas as alterações realizadas desde o início da transação.
+
+Objetivo:
+Garantir que uma operação seja concluída completamente ou não seja executada.
